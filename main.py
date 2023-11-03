@@ -24,7 +24,7 @@ def display_main_menu():
 
 def get_user_input():
     print("Enter Values: ")
-    lists= input().split(",")
+    lists = input().split(",")
     list_of_floats = list(map(float,lists))
     return list_of_floats
 
@@ -36,7 +36,7 @@ def calc_average(list):
 def find_min_max(list):
     min_no = min(list)
     max_no = max(list)
-    min_max = [min_no,max_no]
+    min_max = [min_no, max_no]
     return min_max
 
 def sort_temp(list):
@@ -65,6 +65,6 @@ if __name__ == "__main__":
 
 
 #calculate_bmi(height=1.73,weight=57)
-display_main_menu()
-numbers = get_user_input()
-calc_average(numbers)
+#display_main_menu()
+#numbers = get_user_input()
+#calc_average(numbers)
